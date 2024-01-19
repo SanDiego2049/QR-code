@@ -1,0 +1,68 @@
+/* Mobile Version */
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  font-family: Roboto;
+  overflow-x: hidden;
+}
+
+.first-container {
+  display: flex;
+  height: 100vh;
+  width: 100%;
+  background-color: rgb(228, 228, 228);
+}
+
+.second-container {
+  background-color: #24deff;
+  width: 150vh;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  box-shadow: -1px 15px 20px rgba(100, 100, 100, 0.3);
+}
+
+@media screen and (max-width: 600px) {
+  .second-container {
+    height: 100vh;
+  }
+}
+
+.third-container {
+  background-color: rgb(228, 228, 228);
+  width: 40vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 3%;
+}
+
+.third-container__image {
+  width: 90%;
+  padding: 8%;
+  border-radius: 11%;
+}
+
+.third-container__text {
+  font-size: 1rem;
+  color: grey;
+  text-align: center;
+  padding: 5% 5%;
+}
+
+.third-container__text--bold {
+  font-weight: 900;
+  font-size: 1.3rem;
+  color: black;
+}
